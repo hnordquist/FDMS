@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<IR>
+	<Events>
+		<Columns>
+			<Title>RAD-Sequence Num</Title>
+			<Title>RAD-Start Timestamp</Title>
+			<Title>RAD-End Timestamp</Title>
+			<Title>RAD-Max Timestamp</Title>
+			<Title>RAD-Integral Sum</Title>
+			<Title>RAD-Max Value</Title>
+			<Title>RAD-Max Reals Rate</Title>
+			<Title>RAD-Max Totals Rate</Title>
+			<Title>Station Name</Title>
+			<Title>Station Type</Title>
+			<Title>RAD-Event Channel</Title>
+			<Title>RAD-Type</Title>
+			<Title>RAD-SubType</Title>
+			<Title>RAD-Data Point Num</Title>
+			<Title>RAD-Event ID</Title>
+		</Columns>
+		<Event num="0000" starttime="0000020010825185309000" endtime="0000020010825185529000" maxtime="0000020010825185324000"
+			sum="        7134.0 " maxvalue="     56.4 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   29 " eid="111         " />
+		<Event num="0001" starttime="0000020010825195825000" endtime="0000020010825200005000" maxtime="0000020010825195930000"
+			sum="       11564.0 " maxvalue="    122.2 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   21 " eid="222         " />
+		<Event num="0002" starttime="0000020010825205436000" endtime="0000020010825205641000" maxtime="0000020010825205521000"
+			sum="       15851.0 " maxvalue="    140.8 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   26 " eid="343" />
+		<Event num="0003" starttime="0000020010825220307000" endtime="0000020010825220432000" maxtime="0000020010825220342000"
+			sum="        6186.0 " maxvalue="     78.0 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   18 " eid="CV-17" />
+		<Event num="0004" starttime="0000020010826000213000" endtime="0000020010826000453000" maxtime="0000020010826000328000"
+			sum="        9049.0 " maxvalue="     68.0 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   33 " eid="            " />
+		<Event num="0005" starttime="0000020010826015105000" endtime="0000020010826015405000" maxtime="0000020010826015239000"
+			sum="       13217.0 " maxvalue="     86.6 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   37 " eid="            " />
+		<Event num="0006" starttime="0000020010826030210000" endtime="0000020010826030520000" maxtime="0000020010826030230000"
+			sum="       19550.0 " maxvalue="    127.8 " mrrate="        0.00 " mtrate="        0.00 "
+			sname="GRAND 2" stype="grand" echan="  1 " etype="Channel     " esubtype="Unknown     "
+			edpcount="   39 " eid="            " />
+	</Events>
+</IR>

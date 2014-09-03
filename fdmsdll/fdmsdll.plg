@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fdmsdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\longo\LOCALS~1\Temp\RSPCA.tmp" with contents
+[
+/compile_only /include:"Release/" /dll /nologo /warn:nofileopt /module:"Release/" /object:"Release/" 
+"C:\dev\FDMS\fdmsdll\source\readdatabase.for"
+]
+Creating temporary file "C:\DOCUME~1\longo\LOCALS~1\Temp\RSPCB.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/fdmsdll.pdb" /machine:I386 /out:"Release/fdmsdll.dll" /implib:"Release/fdmsdll.lib" 
+.\Release\getinfoforassemblymeasurementplots.obj
+.\Release\getinfoforplots.obj
+.\Release\readdatabase.obj
+.\Release\readmeasurementplan.obj
+.\Release\fdmsdll.res
+]
+Creating command line "link.exe @C:\DOCUME~1\longo\LOCALS~1\Temp\RSPCB.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\dev\FDMS\fdmsdll\source\readdatabase.for
+Linking...
+   Creating library Release/fdmsdll.lib and object Release/fdmsdll.exp
+
+
+
+<h3>Results</h3>
+fdmsdll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: fdmsdll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+fdmsdll.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
