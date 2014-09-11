@@ -1,5 +1,8 @@
 // XHeaderCtrl.h
 //
+// Author:  Hans Dietrich
+//          hdietrich2@hotmail.com
+//
 // This software is released into the public domain.
 // You are free to use it in any way you like.
 //

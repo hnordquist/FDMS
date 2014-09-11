@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE62BA81-E75E-4BCB-850B-110B14363441}</ProjectGuid>
+    <RootNamespace>FDMS</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/FDMS.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>ULApplicationClasses;Common;ULFMDS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_XJDEBUG;WINVER=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/FDMS.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Version.lib;..\FDMSdll\fdmsdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/FDMS.exe</OutputFile>
+      <Version>
+			</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/FDMS.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/FDMS.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>ULApplicationClasses;Common;ULFMDS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WINVER=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/FDMS.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\FDMSdll\fdmsdll.lib;comsupp.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/FDMS.exe</OutputFile>
+      <Version>
+      </Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/FDMS.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>copy fdms exe to irs</Message>
+      <Command>copy $(TargetPath)  \irs\fdms</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Xlc\BkgEventDlg.cpp" />
+    <ClCompile Include="combos.cpp" />
+    <ClCompile Include="DataColouring.cpp" />
+    <ClCompile Include="Xlc\EventDlg.cpp" />
+    <ClCompile Include="FDMS.cpp" />
+    <ClCompile Include="lipboard.cpp" />
+    <ClCompile Include="LoggingLog.cpp" />
+    <ClCompile Include="xlc\MatchingEventDlg.cpp" />
+    <ClCompile Include="MMMatchDlg.cpp" />
+    <ClCompile Include="xlc\NewEventDlg.cpp" />
+    <ClCompile Include="StartupImpDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VMeasurement.cpp" />
+    <ClCompile Include="xlc\XCalDlg.cpp" />
+    <ClCompile Include="xlc\XComboList.cpp" />
+    <ClCompile Include="xlc\XHeaderCtrl.cpp" />
+    <ClCompile Include="xlc\XListCtrl.cpp" />
+    <ClCompile Include="xlc\XListCtrlTestDlg.cpp" />
+    <ClCompile Include="Common\Initfile.cpp" />
+    <ClCompile Include="Common\Pipe.cpp" />
+    <ClCompile Include="Common\RevwTool.cpp" />
+    <ClCompile Include="Common\Rterror.cpp" />
+    <ClCompile Include="Common\Rtimport.cpp" />
+    <ClCompile Include="Common\Rtinit.cpp" />
+    <ClCompile Include="Common\Rtpipe.cpp" />
+    <ClCompile Include="Common\RTReanalyze.cpp" />
+    <ClCompile Include="Common\Rtreview.cpp" />
+    <ClCompile Include="Common\Rtsetup.cpp" />
+    <ClCompile Include="Common\Rttitle.cpp" />
+    <ClCompile Include="Common\SEBBoxes.CPP" />
+    <ClCompile Include="ULApplicationClasses\ULAboutBoxDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULCallBack.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULDDEClient.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULDDEServer.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULExitDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULInspectionBox.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULMICInspectionInfoDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULModelessBoxDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULPasswordChangeDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULPasswordChangeRequestDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULProductSupportDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULProgressBarDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULSplashDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULStartToolMsgDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULSupport.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULThreeQuestionDlg.cpp" />
+    <ClCompile Include="ULApplicationClasses\ULTitleDlg.cpp" />
+    <ClCompile Include="Appul\FDMSImport.cpp" />
+    <ClCompile Include="Appul\FDMSImpReimp.cpp" />
+    <ClCompile Include="Appul\FDMSReanalyze.cpp" />
+    <ClCompile Include="Appul\FDMSReview.cpp" />
+    <ClCompile Include="Appul\FDMSSetup.cpp" />
+    <ClCompile Include="IRSINI.cpp" />
+    <ClCompile Include="Appul\RADEventList.cpp" />
+    <ClCompile Include="Appul\RADEventsXML.cpp" />
+    <ClCompile Include="Appul\StartUpMsgDlg.cpp" />
+    <ClCompile Include="Appul\TS.cpp" />
+    <ClCompile Include="ULTooToolBar.cpp" />
+    <ClCompile Include="Feeoff.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="FieldBoolean.cpp" />
+    <ClCompile Include="FieldDate.cpp" />
+    <ClCompile Include="FieldDouble.cpp" />
+    <ClCompile Include="FieldLong.cpp" />
+    <ClCompile Include="FieldString.cpp" />
+    <ClCompile Include="AskOnceBox.cpp" />
+    <ClCompile Include="IniFileProcessor.cpp" />
+    <ClCompile Include="InPlaceEdit.cpp" />
+    <ClCompile Include="LogFile.cpp" />
+    <ClCompile Include="melistctl.cpp" />
+    <ClCompile Include="mlistctl.cpp" />
+    <ClCompile Include="RegWrapper.cpp" />
+    <ClCompile Include="Abort.cpp" />
+    <ClCompile Include="AcceptReject.cpp" />
+    <ClCompile Include="AllOtherDlg.cpp" />
+    <ClCompile Include="ccbutton.cpp" />
+    <ClCompile Include="CycVer.cpp" />
+    <ClCompile Include="DemoDoAssay.cpp" />
+    <ClCompile Include="DetectorThread.cpp" />
+    <ClCompile Include="DoAssay.cpp" />
+    <ClCompile Include="ExternalMeasurements.cpp" />
+    <ClCompile Include="FDMSDoc.cpp" />
+    <ClCompile Include="GrandCom.cpp" />
+    <ClCompile Include="ImpEditCol.cpp" />
+    <ClCompile Include="ImportProcessor.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MatchMeasurement.cpp" />
+    <ClCompile Include="MeaCol.cpp" />
+    <ClCompile Include="MeasureDlg.cpp" />
+    <ClCompile Include="MEvent.cpp" />
+    <ClCompile Include="ProcessMeasurement.cpp" />
+    <ClCompile Include="Prompt.cpp" />
+    <ClCompile Include="SelectMeasurement.cpp" />
+    <ClCompile Include="SerialCom.cpp" />
+    <ClCompile Include="VerifyDlg.cpp" />
+    <ClCompile Include="Warning.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="CycleFrame.cpp" />
+    <ClCompile Include="FDMSView.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GraphDataColor.cpp" />
+    <ClCompile Include="GraphDataSet.cpp" />
+    <ClCompile Include="GraphHelp.cpp" />
+    <ClCompile Include="GraphLegend.cpp" />
+    <ClCompile Include="GraphLegendSet.cpp" />
+    <ClCompile Include="GraphPieLabel.cpp" />
+    <ClCompile Include="GraphSeries.cpp" />
+    <ClCompile Include="testdrawView1.cpp" />
+    <ClCompile Include="testdrawView2.CPP" />
+    <ClCompile Include="testdrawView3.CPP" />
+    <ClCompile Include="testdrawView4.CPP" />
+    <ClCompile Include="tests\test.cpp" />
+    <ClCompile Include="tests\testRADintoFDMS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FDMS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Xlc\BkgEventDlg.h" />
+    <ClInclude Include="combos.h" />
+    <ClInclude Include="DataColouring.h" />
+    <ClInclude Include="Xlc\EventDlg.h" />
+    <ClInclude Include="FDMS.h" />
+    <ClInclude Include="InPlaceButton.h" />
+    <ClInclude Include="lipboard.h" />
+    <ClInclude Include="LoggingLog.h" />
+    <ClInclude Include="xlc\MatchingEventDlg.h" />
+    <ClInclude Include="xlc\MemDC.h" />
+    <ClInclude Include="MMMatchDlg.h" />
+    <ClInclude Include="xlc\NewEventDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StartupImpDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="VMeasurement.h" />
+    <ClInclude Include="xlc\XCalDlg.h" />
+    <ClInclude Include="xlc\XComboList.h" />
+    <ClInclude Include="xlc\XHeaderCtrl.h" />
+    <ClInclude Include="xlc\XListCtrl.h" />
+    <ClInclude Include="xlc\XListCtrlTestDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULAboutBoxDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULCallBack.h" />
+    <ClInclude Include="ULApplicationClasses\ULDDEClient.h" />
+    <ClInclude Include="ULApplicationClasses\ULDDEServer.h" />
+    <ClInclude Include="ULApplicationClasses\ULExitDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULInspectionBox.h" />
+    <ClInclude Include="ULApplicationClasses\ULMICInspectionInfoDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULModelessBoxDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULPasswordChangeDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULPasswordChangeRequestDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULProductSupportDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULProgressBarDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULSplashDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULStartToolMsgDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULSupport.h" />
+    <ClInclude Include="ULApplicationClasses\ULThreeQuestionDlg.h" />
+    <ClInclude Include="ULApplicationClasses\ULTitleDlg.h" />
+    <ClInclude Include="Common\Comport.h" />
+    <ClInclude Include="Common\Initfile.h" />
+    <ClInclude Include="Common\Lstlsts.h" />
+    <ClInclude Include="Common\Pipe.h" />
+    <ClInclude Include="Common\Revwtool.h" />
+    <ClInclude Include="Common\RTComs.H" />
+    <ClInclude Include="Common\Rterror.h" />
+    <ClInclude Include="Common\Rtimport.h" />
+    <ClInclude Include="Common\Rtinit.h" />
+    <ClInclude Include="Common\RTLbls.H" />
+    <ClInclude Include="Common\Rtpipe.h" />
+    <ClInclude Include="Common\RTReanalyze.h" />
+    <ClInclude Include="Common\Rtreview.h" />
+    <ClInclude Include="Common\Rtsetup.h" />
+    <ClInclude Include="Common\Rttitle.h" />
+    <ClInclude Include="Common\Sebboxes.h" />
+    <ClInclude Include="Common\Sebmacro.h" />
+    <ClInclude Include="Appul\FDMSImport.h" />
+    <ClInclude Include="Appul\FDMSImpReimp.h" />
+    <ClInclude Include="Appul\FDMSReanalyze.h" />
+    <ClInclude Include="Appul\FDMSReview.h" />
+    <ClInclude Include="Appul\FDMSSetup.h" />
+    <ClInclude Include="Appul\RADEventList.h" />
+    <ClInclude Include="Appul\RADEventsXML.h" />
+    <ClInclude Include="Appul\StartUpMsgDlg.h" />
+    <ClInclude Include="Appul\TS.h" />
+    <ClInclude Include="ULTooToolBar.h" />
+    <ClInclude Include="Feeoff.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="FieldBoolean.h" />
+    <ClInclude Include="FieldDate.h" />
+    <ClInclude Include="FieldDouble.h" />
+    <ClInclude Include="FieldLong.h" />
+    <ClInclude Include="FieldString.h" />
+    <ClInclude Include="AskOnceBox.h" />
+    <ClInclude Include="dconfig.h" />
+    <ClInclude Include="IniFileProcessor.h" />
+    <ClInclude Include="LogFile.h" />
+    <ClInclude Include="mlistctl.h" />
+    <ClInclude Include="RegWrapper.h" />
+    <ClInclude Include="FDMSView.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="GraphDataColor.h" />
+    <ClInclude Include="GraphDataSet.h" />
+    <ClInclude Include="GraphHelp.h" />
+    <ClInclude Include="GraphLegend.h" />
+    <ClInclude Include="GraphLegendSet.h" />
+    <ClInclude Include="GraphPieLabel.h" />
+    <ClInclude Include="GraphSeries.h" />
+    <ClInclude Include="testdrawView1.h" />
+    <ClInclude Include="testdrawView2.H" />
+    <ClInclude Include="testdrawView3.H" />
+    <ClInclude Include="testdrawView4.H" />
+    <ClInclude Include="f77char.h" />
+    <ClInclude Include="f77cmplx.h" />
+    <ClInclude Include="f77matrix.h" />
+    <ClInclude Include="fortran.h" />
+    <ClInclude Include="Abort.h" />
+    <ClInclude Include="AcceptReject.h" />
+    <ClInclude Include="AllOtherDlg.h" />
+    <ClInclude Include="ccbutton.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CycleFrame.h" />
+    <ClInclude Include="CycVer.h" />
+    <ClInclude Include="DemoDoAssay.h" />
+    <ClInclude Include="DetectorThread.h" />
+    <ClInclude Include="DoAssay.h" />
+    <ClInclude Include="ExternalMeasurements.h" />
+    <ClInclude Include="FDMSDoc.h" />
+    <ClInclude Include="GrandCom.h" />
+    <ClInclude Include="ImpEditCol.h" />
+    <ClInclude Include="ImportProcessor.h" />
+    <ClInclude Include="InPlaceEdit.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MatchMeasurement.h" />
+    <ClInclude Include="MeaCol.h" />
+    <ClInclude Include="MeasureDlg.h" />
+    <ClInclude Include="melistctl.h" />
+    <ClInclude Include="MEvent.h" />
+    <ClInclude Include="ProcessMeasurement.h" />
+    <ClInclude Include="Prompt.h" />
+    <ClInclude Include="SelectField.h" />
+    <ClInclude Include="SelectMeasurement.h" />
+    <ClInclude Include="SerialCom.h" />
+    <ClInclude Include="VerifyDlg.h" />
+    <ClInclude Include="Warning.h" />
+    <ClInclude Include="tests\test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="Common\checkbox.bmp" />
+    <None Include="res\FDMS.ico" />
+    <None Include="res\FDMS.rc2" />
+    <None Include="res\FDMSDoc.ico" />
+    <None Include="Common\RT_Title_Buttons.BMP" />
+    <None Include="Common\RT_Title_NIS5_Dark_1.BMP" />
+    <None Include="Common\SEB_About_Birds.bmp" />
+    <None Include="Common\SEB_About_Lanl.BMP" />
+    <None Include="Common\SEB_Product_Support_Lanl.BMP" />
+    <None Include="res\Splsh16.bmp" />
+    <None Include="Common\toolbar1.bmp" />
+    <None Include="..\BID Sample Data\218pr37.bid" />
+    <None Include="..\BID Sample Data\218qa55.bid" />
+    <None Include="..\BID Sample Data\Fwd MIC Sample Data.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\BID Sample Data\MIC Samples.xls" />
+    <None Include="res\ApplicationSettings.ini" />
+    <None Include="res\database.csv" />
+    <None Include="res\measurementplan.csv" />
+    <None Include="res\measurements.csv" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\ULAYR.ini" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties DevPartner_IsInstrumented="1" RESOURCE_FILE="FDMS.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
