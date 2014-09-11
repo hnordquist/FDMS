@@ -1,3 +1,30 @@
+c
+c Copyright (c) 2014, Los Alamos National Security, LLC
+c All rights reserved.
+c Copyright 2014. Los Alamos National Security, LLC. This software was produced under U.S. Government contract 
+c DE-AC52-06NA25396 for Los Alamos National Laboratory (LANL), which is operated by Los Alamos National Security, 
+c LLC for the U.S. Department of Energy. The U.S. Government has rights to use, reproduce, and distribute this software.  
+c NEITHER THE GOVERNMENT NOR LOS ALAMOS NATIONAL SECURITY, LLC MAKES ANY WARRANTY, EXPRESS OR IMPLIED, 
+c OR ASSUMES ANY LIABILITY FOR THE USE OF THIS SOFTWARE.  If software is modified to produce derivative works, 
+c such modified software should be clearly marked, so as not to confuse it with the version available from LANL.
+c 
+c Additionally, redistribution and use in source and binary forms, with or without modification, are permitted provided 
+c that the following conditions are met:
+c *		Redistributions of source code must retain the above copyright notice, this list of conditions and the following 
+c disclaimer. 
+c *		Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following 
+c disclaimer in the documentation and/or other materials provided with the distribution. 
+c *		Neither the name of Los Alamos National Security, LLC, Los Alamos National Laboratory, LANL, the U.S. Government, 
+c nor the names of its contributors may be used to endorse or promote products derived from this software without specific 
+c prior written permission. 
+c THIS SOFTWARE IS PROVIDED BY LOS ALAMOS NATIONAL SECURITY, LLC AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED 
+c WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+c PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL LOS ALAMOS NATIONAL SECURITY, LLC OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+c INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+c SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
+c THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+c IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 	subroutine getinfoforplots(
 
 c	inputs
