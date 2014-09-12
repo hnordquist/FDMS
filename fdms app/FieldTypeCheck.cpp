@@ -25,12 +25,12 @@ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRU
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
 IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-// $History: Feeoff.cpp $
+// $History: FieldTypeCheck.cpp $
 // 
 // *****************  Version 3  *****************
 // User: Longo        Date: 1/07/05    Time: 2:25p
 // Updated in $/FDMS/FDMS Application/FDMSNET
-// adding the secondary import editor dilaog
+// adding the secondary import editor dialog
 // 
 // *****************  Version 2  *****************
 // User: Longo        Date: 11/24/04   Time: 3:48p
@@ -45,7 +45,7 @@ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O
 #include <afxdtctl.h>
 #include ".\meacol.h"
 #include ".\FDMS.h"
-#include ".\feeoff.h"
+#include ".\FieldTypeCheck.h"
 #include ".\askoncebox.h"
 #include ".\field.h"
 

@@ -96,7 +96,7 @@
       <AdditionalDependencies>Version.lib;..\FDMSdll\fdmsdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Debug/FDMS.exe</OutputFile>
       <Version>
-			</Version>
+      </Version>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/FDMS.pdb</ProgramDatabaseFile>
@@ -157,8 +157,10 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Message>copy fdms exe to irs</Message>
-      <Command>copy $(TargetPath)  \irs\fdms</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -223,7 +225,7 @@
     <ClCompile Include="Appul\StartUpMsgDlg.cpp" />
     <ClCompile Include="Appul\TS.cpp" />
     <ClCompile Include="ULTooToolBar.cpp" />
-    <ClCompile Include="Feeoff.cpp" />
+    <ClCompile Include="FieldTypeCheck.cpp" />
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="FieldBoolean.cpp" />
     <ClCompile Include="FieldDate.cpp" />
@@ -348,7 +350,7 @@
     <ClInclude Include="Appul\StartUpMsgDlg.h" />
     <ClInclude Include="Appul\TS.h" />
     <ClInclude Include="ULTooToolBar.h" />
-    <ClInclude Include="Feeoff.h" />
+    <ClInclude Include="FieldTypeCheck.h" />
     <ClInclude Include="Field.h" />
     <ClInclude Include="FieldBoolean.h" />
     <ClInclude Include="FieldDate.h" />

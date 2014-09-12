@@ -82,7 +82,7 @@ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O
 
 #include "mlistctl.h"
 #include "meacol.h"
-#include "feeoff.h"
+#include "FieldTypeCheck.h"
 
 
 /////////////////////////////////////////////////////////////////////////////

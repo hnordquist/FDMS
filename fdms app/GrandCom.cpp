@@ -422,7 +422,7 @@ TRACE2("GrandCom::DoRespond(%s) State:%d\n",Command,m_dGrandState);
 					//send message back
 					char szMsgBuff[128];
 
-	TRACE1("sendig back offset data (%d)\n",m_iTickCount);
+	TRACE1("sending back offset data (%d)\n",m_iTickCount);
 
 
 					for(int iChan = 0; iChan < 2; iChan ++)

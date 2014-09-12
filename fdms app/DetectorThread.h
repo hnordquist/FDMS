@@ -42,6 +42,7 @@ protected:
 	bool		m_bDone;
 	CWnd*		m_pReceiver;
 	CWnd*		m_pWatch;
+	int			m_dNode;
 
 // Attributes
 public:
@@ -73,7 +74,6 @@ public:
 // Implementation
 	virtual ~DetectorThread();
 protected:
-	int m_dNode;
 
 	// Generated message map functions
 	//{{AFX_MSG(DetectorThread)

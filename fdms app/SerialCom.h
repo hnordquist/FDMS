@@ -92,7 +92,7 @@ public:
 
 
 protected:
-	int m_dNode;
+	//int m_dNode; well this didn't quite work out no?
 
 	// Generated message map functions
 	//{{AFX_MSG(CSerialCom)

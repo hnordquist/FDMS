@@ -34,7 +34,7 @@ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O
 #include "XListCtrl.h"
 
 #include "..\ImpEditCol.h"
-#include "..\feeoff.h"
+#include "..\FieldTypeCheck.h"
 #include "..\mevent.h"
 #include "afxwin.h"
 

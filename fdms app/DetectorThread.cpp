@@ -47,6 +47,8 @@ DetectorThread::DetectorThread()
 
 	m_bMiniGrand = false;
 
+	m_dNode = 0;
+
 }
 
 DetectorThread::~DetectorThread()

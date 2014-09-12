@@ -125,7 +125,7 @@ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O
 
 #include "acceptreject.h"
 #include "dconfig.h"
-#include "feeoff.h"
+#include "FieldTypeCheck.h"
 
 #include ".\processmeasurement.h"
 
