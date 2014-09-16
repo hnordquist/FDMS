@@ -412,6 +412,7 @@
     <ClInclude Include="tests\test.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="res\basic_Logo-E_vertical_blue.bmp" />
     <None Include="res\bitmap1.bmp" />
     <None Include="res\bmp00001.bmp" />
     <None Include="Common\checkbox.bmp" />
@@ -425,8 +426,6 @@
     <None Include="Common\SEB_Product_Support_Lanl.BMP" />
     <None Include="res\Splsh16.bmp" />
     <None Include="Common\toolbar1.bmp" />
-    <None Include="..\BID Sample Data\218pr37.bid" />
-    <None Include="..\BID Sample Data\218qa55.bid" />
     <None Include="..\BID Sample Data\Fwd MIC Sample Data.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -435,7 +434,6 @@
     <None Include="res\database.csv" />
     <None Include="res\measurementplan.csv" />
     <None Include="res\measurements.csv" />
-    <None Include="ReadMe.txt" />
     <None Include="res\ULAYR.ini" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

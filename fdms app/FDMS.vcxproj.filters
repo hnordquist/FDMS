@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f3a6cd4f-3c7d-4b5c-ab50-5df30b386081}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ULCommon">
+      <UniqueIdentifier>{19186440-9a1a-4571-9a27-956cc7d4874c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ULApplicationClasses">
+      <UniqueIdentifier>{bf59471d-0c03-4139-97a0-4434437c77b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ULFDMS">
+      <UniqueIdentifier>{b994dd02-e958-4f97-b55e-44e2ebd18e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\field">
+      <UniqueIdentifier>{655c04a6-79a6-4177-926b-ba568a4d7733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\support">
+      <UniqueIdentifier>{34ffe009-5e77-4bd3-afeb-d03ac84a4ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Primary">
+      <UniqueIdentifier>{9a0802b1-43f8-4a97-ae5e-2baf769d48f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graph">
+      <UniqueIdentifier>{d5a1dce7-1471-4d41-a841-2fdb25bad45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{421525d2-79e5-4f99-b656-d422ba805ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{86a18d05-bb20-4d42-beeb-fffece684e90}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ULApplicationClasses">
+      <UniqueIdentifier>{3a261d58-c51c-4f11-8991-ea99c0850a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ULCommon">
+      <UniqueIdentifier>{3fbd70d1-0096-47f0-aeb7-a18badcefd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ULFMDS">
+      <UniqueIdentifier>{9bf0292a-5234-47a1-afbb-e33ce06adb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\field">
+      <UniqueIdentifier>{b54a49a6-68c2-4abc-a5fc-5915078a9bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\support">
+      <UniqueIdentifier>{8dad3c4d-b1f8-4c4a-b799-02dc327c0d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graph">
+      <UniqueIdentifier>{2066bdf3-7200-4e0e-9eac-3b25e57dadb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fortran">
+      <UniqueIdentifier>{fba5769f-0b31-445a-a9ce-25b7150a1720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\primary">
+      <UniqueIdentifier>{957ee36d-1bc9-43f9-be91-eb9dcd659291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tests">
+      <UniqueIdentifier>{690a6cc8-dbee-4101-8657-6d0777fdf5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e82090f6-f170-4cff-a9ef-88f8701846ac}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="BID Files">
+      <UniqueIdentifier>{ad0bc7d0-23a9-4e17-86d3-375d103bf63c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Xlc\BkgEventDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="combos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataColouring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xlc\EventDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDMS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggingLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\MatchingEventDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMMatchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\NewEventDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupImpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMeasurement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\XCalDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\XComboList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\XHeaderCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\XListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlc\XListCtrlTestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Initfile.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Pipe.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RevwTool.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rterror.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rtimport.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rtinit.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rtpipe.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RTReanalyze.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rtreview.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rtsetup.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Rttitle.cpp">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SEBBoxes.CPP">
+      <Filter>Source Files\ULCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULAboutBoxDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULCallBack.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULDDEClient.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULDDEServer.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULExitDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULInspectionBox.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULMICInspectionInfoDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULModelessBoxDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULPasswordChangeDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULPasswordChangeRequestDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULProductSupportDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULProgressBarDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULSplashDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULStartToolMsgDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULSupport.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULThreeQuestionDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ULApplicationClasses\ULTitleDlg.cpp">
+      <Filter>Source Files\ULApplicationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\FDMSImport.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\FDMSImpReimp.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\FDMSReanalyze.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\FDMSReview.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\FDMSSetup.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="IRSINI.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\RADEventList.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\RADEventsXML.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\StartUpMsgDlg.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Appul\TS.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="ULTooToolBar.cpp">
+      <Filter>Source Files\ULFDMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files\field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBoolean.cpp">
+      <Filter>Source Files\field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldDate.cpp">
+      <Filter>Source Files\field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldDouble.cpp">
+      <Filter>Source Files\field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldLong.cpp">
+      <Filter>Source Files\field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldString.cpp">
+      <Filter>Source Files\field</Filter>
+    </ClCompile>
+    <ClCompile Include="AskOnceBox.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFileProcessor.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceEdit.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="melistctl.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="mlistctl.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="RegWrapper.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Abort.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptReject.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="AllOtherDlg.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="ccbutton.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="CycVer.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoDoAssay.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectorThread.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="DoAssay.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalMeasurements.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="FDMSDoc.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandCom.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="ImpEditCol.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportProcessor.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchMeasurement.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="MeaCol.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasureDlg.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="MEvent.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMeasurement.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMeasurement.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialCom.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyDlg.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="Warning.cpp">
+      <Filter>Source Files\Primary</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleFrame.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FDMSView.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphDataColor.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphDataSet.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphHelp.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphLegend.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphLegendSet.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphPieLabel.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSeries.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="testdrawView1.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="testdrawView2.CPP">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="testdrawView3.CPP">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="testdrawView4.CPP">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\testRADintoFDMS.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldTypeCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FDMS.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Xlc\BkgEventDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="combos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataColouring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xlc\EventDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDMS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggingLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\MatchingEventDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMMatchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\NewEventDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupImpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\XCalDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\XComboList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\XHeaderCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\XListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlc\XListCtrlTestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULAboutBoxDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULCallBack.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULDDEClient.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULDDEServer.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULExitDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULInspectionBox.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULMICInspectionInfoDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULModelessBoxDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULPasswordChangeDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULPasswordChangeRequestDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULProductSupportDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULProgressBarDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULSplashDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULStartToolMsgDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULSupport.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULThreeQuestionDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ULApplicationClasses\ULTitleDlg.h">
+      <Filter>Header Files\ULApplicationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Comport.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Initfile.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Lstlsts.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Pipe.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Revwtool.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RTComs.H">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rterror.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rtimport.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rtinit.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RTLbls.H">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rtpipe.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RTReanalyze.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rtreview.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rtsetup.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rttitle.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Sebboxes.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Sebmacro.h">
+      <Filter>Header Files\ULCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\FDMSImport.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\FDMSImpReimp.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\FDMSReanalyze.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\FDMSReview.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\FDMSSetup.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\RADEventList.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\RADEventsXML.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\StartUpMsgDlg.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Appul\TS.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="ULTooToolBar.h">
+      <Filter>Header Files\ULFMDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files\field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBoolean.h">
+      <Filter>Header Files\field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldDate.h">
+      <Filter>Header Files\field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldDouble.h">
+      <Filter>Header Files\field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldLong.h">
+      <Filter>Header Files\field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldString.h">
+      <Filter>Header Files\field</Filter>
+    </ClInclude>
+    <ClInclude Include="AskOnceBox.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="dconfig.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFileProcessor.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFile.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="mlistctl.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="RegWrapper.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="FDMSView.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphDataColor.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphDataSet.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphHelp.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphLegend.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphLegendSet.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphPieLabel.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSeries.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="testdrawView1.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="testdrawView2.H">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="testdrawView3.H">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="testdrawView4.H">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="f77char.h">
+      <Filter>Header Files\fortran</Filter>
+    </ClInclude>
+    <ClInclude Include="f77cmplx.h">
+      <Filter>Header Files\fortran</Filter>
+    </ClInclude>
+    <ClInclude Include="f77matrix.h">
+      <Filter>Header Files\fortran</Filter>
+    </ClInclude>
+    <ClInclude Include="fortran.h">
+      <Filter>Header Files\fortran</Filter>
+    </ClInclude>
+    <ClInclude Include="Abort.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptReject.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="AllOtherDlg.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="ccbutton.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleFrame.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="CycVer.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoDoAssay.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectorThread.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="DoAssay.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalMeasurements.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="FDMSDoc.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandCom.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="ImpEditCol.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportProcessor.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceEdit.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchMeasurement.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="MeaCol.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="MeasureDlg.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="melistctl.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="MEvent.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMeasurement.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectField.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMeasurement.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCom.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifyDlg.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="Warning.h">
+      <Filter>Header Files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\test.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldTypeCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\checkbox.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FDMS.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FDMS.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FDMSDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\RT_Title_Buttons.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\RT_Title_NIS5_Dark_1.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\SEB_About_Birds.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\SEB_About_Lanl.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\SEB_Product_Support_Lanl.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Splsh16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\BID Sample Data\Fwd MIC Sample Data.htm">
+      <Filter>BID Files</Filter>
+    </None>
+    <None Include="..\BID Sample Data\MIC Samples.xls">
+      <Filter>BID Files</Filter>
+    </None>
+    <None Include="res\database.csv" />
+    <None Include="res\measurementplan.csv" />
+    <None Include="res\measurements.csv" />
+    <None Include="res\ULAYR.ini" />
+    <None Include="res\ApplicationSettings.ini" />
+    <None Include="res\basic_Logo-E_vertical_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

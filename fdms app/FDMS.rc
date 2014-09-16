@@ -748,8 +748,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2,1,1,2
- PRODUCTVERSION 2,1,1,2
+ FILEVERSION 2,1,2,0
+ PRODUCTVERSION 2,1,2,0
  FILEFLAGSMASK 0x37L
 #ifdef _DEBUG
  FILEFLAGS 0x21L
@@ -764,15 +764,15 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "Comments", "2.1.1 Sep. 12, 2014."
-            VALUE "CompanyName", "International Atomic Energy Agency."
-            VALUE "FileDescription", "FDMS Sep. 12, 2014"
-            VALUE "FileVersion", "2.1.1.2 Sep. 12, 2014"
+            VALUE "Comments", "2.1.2 Sep. 15, 2014."
+            VALUE "CompanyName", "LANS, LLC"
+            VALUE "FileDescription", "FDMS Sep. 15, 2014"
+            VALUE "FileVersion", "2.1.2"
             VALUE "InternalName", "FDMS"
-            VALUE "LegalCopyright", "Copyright © 2014. Los Alamos National Security, LLC. "
+            VALUE "LegalCopyright", "Copyright © 2014. Los Alamos National Security, LLC. See associated license text."
             VALUE "ProductName", "Fork Detector Measurement Software"
-            VALUE "ProductVersion", "2.1.1 Sep. 12, 2014"
-            VALUE "SpecialBuild", "2.1.1.2 Sep. 12, 2014"
+            VALUE "ProductVersion", "2.1.2"
+            VALUE "SpecialBuild", "2.1.2 Sep. 15, 2014"
         END
     END
     BLOCK "VarFileInfo"

@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FDMS", "FDMS.vcxproj", "{EE62BA81-E75E-4BCB-850B-110B14363441}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{A378C91B-206B-47B7-AF0B-66378EB475C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -14,6 +16,10 @@ Global
 		{EE62BA81-E75E-4BCB-850B-110B14363441}.Debug|Default.Build.0 = Debug|Win32
 		{EE62BA81-E75E-4BCB-850B-110B14363441}.Release|Default.ActiveCfg = Release|Win32
 		{EE62BA81-E75E-4BCB-850B-110B14363441}.Release|Default.Build.0 = Release|Win32
+		{A378C91B-206B-47B7-AF0B-66378EB475C1}.Debug|Default.ActiveCfg = Debug
+		{A378C91B-206B-47B7-AF0B-66378EB475C1}.Debug|Default.Build.0 = Debug
+		{A378C91B-206B-47B7-AF0B-66378EB475C1}.Release|Default.ActiveCfg = Release
+		{A378C91B-206B-47B7-AF0B-66378EB475C1}.Release|Default.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
