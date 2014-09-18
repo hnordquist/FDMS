@@ -408,6 +408,9 @@
     <ClCompile Include="FieldTypeCheck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LegText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="FDMS.rc">
@@ -789,6 +792,12 @@
     </ClInclude>
     <ClInclude Include="FieldTypeCheck.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LegText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="about.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

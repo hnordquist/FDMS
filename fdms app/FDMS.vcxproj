@@ -108,8 +108,7 @@
     <PostBuildEvent>
       <Message>
       </Message>
-      <Command>
-      </Command>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)..\deploy"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -164,6 +163,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LegText.cpp" />
     <ClCompile Include="Xlc\BkgEventDlg.cpp" />
     <ClCompile Include="combos.cpp" />
     <ClCompile Include="DataColouring.cpp" />
@@ -285,6 +285,8 @@
     <ResourceCompile Include="FDMS.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="LegText.h" />
     <ClInclude Include="Xlc\BkgEventDlg.h" />
     <ClInclude Include="combos.h" />
     <ClInclude Include="DataColouring.h" />

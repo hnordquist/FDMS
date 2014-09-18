@@ -39,6 +39,7 @@
 #define IDD_MMMATCHDLG                  152
 #define IDD_DIALOG4                     153
 #define IDD_DIALOG5                     154
+#define IDD_ABOUT1                      156
 #define IDC_BUTTON1                     201
 #define IDC_BUTTON2                     202
 #define IDC_BUTTON3                     203
@@ -108,6 +109,8 @@
 #define IDC_STATIC_ML                   1053
 #define IDC_STATIC1                     1054
 #define IDC_STATIC2                     1055
+#define IDC_RICHEDIT21                  1056
+#define IDC_LEGALESE                    1056
 #define IDC_STATIC_WATCH                1213
 #define IDC_EDIT_ACTIVITY               1216
 #define IDC_STATIC_INSTRUCTION          1217
@@ -239,8 +242,8 @@
 #define IDR_DBCSV                       8600
 #define IDR_MPCSV                       8601
 #define IDR_MSCSV                       8602
-#define IDR_ULINI						8603
-#define IDR_APPINI						8604
+#define IDR_ULINI                       8603
+#define IDR_APPINI                      8604
 #define IDC_SEB_PROGRESS_BAR_BAR        14543
 #define IDD_SEB_THREE_QUESTION_BOX_LARGE 21753
 #define IDD_SEB_MODELESS_BOX_LARGE      21754
@@ -358,9 +361,9 @@
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
-#define _APS_NEXT_RESOURCE_VALUE        156
+#define _APS_NEXT_RESOURCE_VALUE        157
 #define _APS_NEXT_COMMAND_VALUE         32811
-#define _APS_NEXT_CONTROL_VALUE         1056
+#define _APS_NEXT_CONTROL_VALUE         1058
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

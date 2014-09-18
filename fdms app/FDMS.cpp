@@ -156,6 +156,8 @@ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O
 #include ".\DoAssay.h"
 #include ".\xlc\XListCtrlTestDlg.h"
 
+#include ".\LegText.h"
+
 #ifdef _XJDEBUG
 #define new DEBUG_NEW
 #undef THIS_FILE
@@ -887,7 +889,8 @@ BOOL CFDMSApp::InitIniFileandRelatedValues()
 
 BOOL CFDMSApp::InitInstance()
 {
-
+//TODO: call AfxInitRichEdit2() to initialize richedit2 library.
+	AfxInitRichEdit2();
 	BOOL bExitValue = FALSE;
 	AfxEnableControlContainer();
 	CoInitialize(NULL);
@@ -2827,8 +2830,8 @@ END_MESSAGE_MAP()
 // App command to run the dialog
 void CFDMSApp::OnAppAbout()
 {
-	CAboutDlg aboutDlg;
-	aboutDlg.DoModal();
+	CLegText x;
+	x.DoModal();
 }
 
 BOOL CAboutDlg::GetLastWriteTime(PTCHAR pszFullPath, CString& lpszString)

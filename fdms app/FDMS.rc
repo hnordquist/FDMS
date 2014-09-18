@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -74,7 +72,7 @@ IDR_FDMSTYPE            ICON                    "res\\FDMSDoc.ico"
 // Menu
 //
 
-IDR_MAINFRAME MENU 
+IDR_MAINFRAME MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -136,7 +134,7 @@ BEGIN
     END
 END
 
-IDR_FDMSTYPE MENU 
+IDR_FDMSTYPE MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -206,7 +204,7 @@ BEGIN
     END
 END
 
-IDR_IMPEDIT MENU 
+IDR_IMPEDIT MENU
 BEGIN
     POPUP "&Edit"
     BEGIN
@@ -221,7 +219,7 @@ END
 // Accelerator
 //
 
-IDR_MAINFRAME ACCELERATORS 
+IDR_MAINFRAME ACCELERATORS
 BEGIN
     "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
     VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
@@ -248,23 +246,18 @@ END
 // Dialog
 //
 
-IDD_ABOUTBOX DIALOGEX 0, 0, 246, 226
+IDD_ABOUTBOX DIALOGEX 0, 0, 231, 136
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "About FDMS"
 FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
-    ICON            IDR_MAINFRAME,IDC_STATIC,11,2,21,20
-    CTEXT           "n,v,d",IDC_VERSION_LABEL,53,8,186,12,SS_NOPREFIX
-    DEFPUSHBUTTON   "OK",IDOK,101,211,50,14,WS_GROUP
-    LTEXT           "Authored by the Systems Analysis and Surveillance Group (DSA-3) of Los Alamos National Laboratory. Copyright © Los Alamos National Security, LLC, (LANS). 2014.",IDC_STATIC,7,23,232,25
-    LTEXT           "Produced under Contract No. DE-AC52-06NA25396 with the U.S. Department of Energy (DOE). LANS has certain rights in the program pursuant to the contract, and the program should not be copied or distributed outside your organization.",IDC_STATIC,7,148,232,33
-    LTEXT           "Neither the US Government, the DOE, nor LANS makes any warranty, express or implied, or assumes any liability or responsibility for the use of this software.",IDC_STATIC,7,185,232,26
-    CTEXT           "Authored by\r\nJohn Lestone PhD\r\nD. Pelowitz\r\nJ. Longo\r\nLos Alamos National Laboratory/DSA-3\r\n\r\nIncludes contributions from other LANL personnel.",IDC_STATIC,128,58,101,75
-    CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,19,53,93,76
-    LTEXT           "International Atomic Energy Agency",IDC_STATIC,10,132,120,14
+    CTEXT           "n,v,d",IDC_VERSION_LABEL,53,8,171,12,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,91,121,50,14,WS_GROUP
+    LTEXT           "See the license text file accompanying this software for important notices.\r\n\r\nOriginally authored by\r\nJohn Lestone PhD\r\nD. Pelowitz, J. Longo\r\nLos Alamos National Laboratory.",IDC_STATIC,79,26,143,64
+    CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,7,26,66,80
 END
 
-IDD_DIALOG_MEASURE DIALOG  0, 0, 152, 85
+IDD_DIALOG_MEASURE DIALOG 0, 0, 152, 85
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
 CAPTION "FDMS - Measurement Type"
 FONT 8, "MS Sans Serif"
@@ -273,7 +266,7 @@ BEGIN
     CONTROL         "",IDC_STATIC_2,"Static",SS_BLACKFRAME,7,49,138,29
 END
 
-IDD_DIALOG_ALLOTHER DIALOG  0, 0, 155, 164
+IDD_DIALOG_ALLOTHER DIALOG 0, 0, 155, 164
 STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "FDMS - Assembly Verification"
 FONT 8, "MS Sans Serif"
@@ -285,7 +278,7 @@ BEGIN
     CONTROL         "",IDC_STATIC_8,"Static",SS_BLACKFRAME,7,131,141,26
 END
 
-IDD_DIALOG1 DIALOG  0, 0, 158, 127
+IDD_DIALOG1 DIALOG 0, 0, 158, 127
 STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "FDMS - Verify"
 FONT 8, "MS Sans Serif"
@@ -321,7 +314,7 @@ BEGIN
     PUSHBUTTON      "     <<|\nClear All",IDC_BUTTONCA,93,162,50,19,BS_MULTILINE
 END
 
-IDD_DIALOG_HELP DIALOG  0, 0, 186, 95
+IDD_DIALOG_HELP DIALOG 0, 0, 186, 95
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Help"
 FONT 8, "MS Sans Serif"
@@ -376,7 +369,7 @@ BEGIN
     CONTROL         "Progress1",IDC_PROGRESS2,"msctls_progress32",PBS_SMOOTH | PBS_VERTICAL | WS_BORDER,380,7,12,167
 END
 
-IDD_DIALOG2 DIALOG  0, 0, 109, 68
+IDD_DIALOG2 DIALOG 0, 0, 109, 68
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "Warning"
 FONT 14, "Arial"
@@ -424,7 +417,7 @@ BEGIN
     CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,446,221
 END
 
-IDD_DIALOG_CYCVER DIALOG  0, 0, 155, 71
+IDD_DIALOG_CYCVER DIALOG 0, 0, 155, 71
 STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "FDMS - Cycle Verification"
 FONT 8, "MS Sans Serif"
@@ -488,7 +481,7 @@ BEGIN
     LTEXT           "APPLICATION NAME - Version 1.0\nLos Alamos National Laboratory, Nonproliferation and International Security\nSafeguards Science and Technology\nJoe - SOMEONE@lanl.gov",IDC_STATIC,3,182,363,37,SS_SUNKEN
 END
 
-IDD_RT_START_TOOL DIALOG  0, 0, 181, 53
+IDD_RT_START_TOOL DIALOG 0, 0, 181, 53
 STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Integrated Review"
 FONT 8, "MS Sans Serif"
@@ -496,7 +489,7 @@ BEGIN
     CTEXT           "Please wait...\n\nStarting the data reviewing tool.",IDC_RT_START_TOOL_MESSAGE,13,10,157,35
 END
 
-IDD_RT_TITLE DIALOG  0, 0, 321, 250
+IDD_RT_TITLE DIALOG 0, 0, 321, 250
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -530,7 +523,7 @@ BEGIN
     EDITTEXT        IDC_RT_TITLE_EXIT_NOTIFY_FIX,12,203,47,11,ES_AUTOHSCROLL | NOT WS_VISIBLE | NOT WS_TABSTOP
 END
 
-IDD_RT_MIC_LOAD_INSPEC_INFO DIALOG  0, 0, 166, 61
+IDD_RT_MIC_LOAD_INSPEC_INFO DIALOG 0, 0, 166, 61
 STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Integrated Review"
 FONT 8, "MS Sans Serif"
@@ -539,7 +532,7 @@ BEGIN
     LISTBOX         IDC_RT_MIC_INSPEC_INFO_LIST,10,46,145,12,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL
 END
 
-IDD_SEB_IAEA_INSPECTION_BOX DIALOG  0, 0, 260, 277
+IDD_SEB_IAEA_INSPECTION_BOX DIALOG 0, 0, 260, 277
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Inspection Information"
 FONT 8, "MS Sans Serif"
@@ -577,7 +570,7 @@ BEGIN
     RTEXT           "Static",IDC_SEB_IAEA_INSPEC_LOCATION,85,61,162,12,SS_CENTERIMAGE
 END
 
-IDD_SEB_IAEA_INSPECTION_ID_BOX DIALOG  0, 0, 220, 90
+IDD_SEB_IAEA_INSPECTION_ID_BOX DIALOG 0, 0, 220, 90
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Add New Inspector ID"
 FONT 8, "MS Sans Serif"
@@ -589,7 +582,7 @@ BEGIN
     CTEXT           "Please enter the new inspector identification.",IDC_STATIC,22,8,174,12
 END
 
-IDD_SEB_MODELESS_BOX_LARGE DIALOG  0, 0, 196, 81
+IDD_SEB_MODELESS_BOX_LARGE DIALOG 0, 0, 196, 81
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -597,7 +590,7 @@ BEGIN
     CTEXT           "",IDC_SEB_MODELESS_BOX_MESSAGE,6,9,183,48
 END
 
-IDD_SEB_PASSWORD_CHANGE_BOX DIALOG  0, 0, 156, 115
+IDD_SEB_PASSWORD_CHANGE_BOX DIALOG 0, 0, 156, 115
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Password Change"
 FONT 8, "MS Sans Serif"
@@ -613,7 +606,7 @@ BEGIN
     PUSHBUTTON      "&Cancel",IDCANCEL,78,91,51,12
 END
 
-IDD_SEB_PASSWORD_REQUEST_BOX DIALOG  0, 0, 151, 77
+IDD_SEB_PASSWORD_REQUEST_BOX DIALOG 0, 0, 151, 77
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Password Verify"
 FONT 8, "MS Sans Serif"
@@ -626,7 +619,7 @@ BEGIN
     PUSHBUTTON      "&Cancel",IDCANCEL,73,56,44,13
 END
 
-IDD_SEB_PRODUCT_SUPPORT_BOX DIALOG  0, 0, 268, 141
+IDD_SEB_PRODUCT_SUPPORT_BOX DIALOG 0, 0, 268, 141
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Product Support"
 FONT 8, "MS Sans Serif"
@@ -639,7 +632,7 @@ BEGIN
     CTEXT           "For support, please contact us via email:",IDC_STATIC,17,58,231,11
 END
 
-IDD_SEB_PROGRESS_BAR DIALOG  0, 0, 280, 63
+IDD_SEB_PROGRESS_BAR DIALOG 0, 0, 280, 63
 STYLE DS_SETFONT | DS_MODALFRAME | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -651,7 +644,7 @@ BEGIN
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,0,278,1
 END
 
-IDD_SEB_THREE_QUESTION_BOX_LARGE DIALOG  0, 0, 228, 86
+IDD_SEB_THREE_QUESTION_BOX_LARGE DIALOG 0, 0, 228, 86
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 FONT 10, "System"
 BEGIN
@@ -741,6 +734,17 @@ BEGIN
     PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
 END
 
+IDD_ABOUT1 DIALOGEX 0, 0, 438, 260
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FDMS version, and legal notices"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,320,7,50,14
+    PUSHBUTTON      "More...",IDC_BUTTON1,379,7,50,14
+    CTEXT           "n,v,d",IDC_VERSION_LABEL,61,8,213,12,SS_NOPREFIX
+    CONTROL         "",IDC_LEGALESE,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,24,424,229,WS_EX_CLIENTEDGE
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -788,14 +792,14 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
         LEFTMARGIN, 7
-        RIGHTMARGIN, 239
+        RIGHTMARGIN, 224
         TOPMARGIN, 4
-        BOTTOMMARGIN, 225
+        BOTTOMMARGIN, 135
     END
 
     IDD_DIALOG_MEASURE, DIALOG
@@ -915,6 +919,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 83
     END
+
+    IDD_ABOUT1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 431
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -925,7 +937,7 @@ END
 //
 
 IDB_BMP_ALL             BITMAP                  "res\\bitmap1.bmp"
-IDB_IAEA_BITMAP         BITMAP                  "res\\bmp00001.bmp"
+IDB_IAEA_BITMAP         BITMAP                  "res\\basic_Logo-E_vertical_blue.bmp"
 IDB_RT_TITLE_BUTTONS    BITMAP                  ".\\COMMON\\RT_Title_Buttons.BMP"
 IDB_RT_TITLE_NIS5_DARK_1 BITMAP                  ".\\COMMON\\RT_Title_NIS5_Dark_1.BMP"
 IDB_SEB_ABOUT_BIRDS     BITMAP                  ".\\COMMON\\SEB_About_Birds.bmp"
@@ -940,7 +952,7 @@ IDB_CHECKBOXBMP         BITMAP                  ".\\common\\checkbox.bmp"
 // Toolbar
 //
 
-IDR_TOOLBAR1 TOOLBAR  16, 15
+IDR_TOOLBAR1 TOOLBAR 16, 15
 BEGIN
     BUTTON      ID_TOOLCOMBOBOXID
     BUTTON      ID_TOOLCOMBOBOXGO
@@ -964,19 +976,19 @@ IDR_APPINI              RCDATA                  "res\\applicationsettings.ini"
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDR_MAINFRAME           "FDMS"
     IDR_FDMSTYPE            "\nFDMS\nFDMS\n\n\nFDMS.Document\nFDMS Document"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_APP_TITLE       "FDMS"
     AFX_IDS_IDLEMESSAGE     "Ready"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_INDICATOR_EXT        "EXT"
     ID_INDICATOR_CAPS       "CAP"
@@ -986,7 +998,7 @@ BEGIN
     ID_INDICATOR_REC        "REC"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_NEW             "Create a new document\nNew"
     ID_FILE_OPEN            "Open an existing document\nOpen"
@@ -999,13 +1011,13 @@ BEGIN
     ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
     ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_MRU_FILE1       "Open this document"
     ID_FILE_MRU_FILE2       "Open this document"
@@ -1017,13 +1029,13 @@ BEGIN
     ID_FILE_MRU_FILE8       "Open this document"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
     ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
     ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
@@ -1033,7 +1045,7 @@ BEGIN
     ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_CLEAR           "Erase the selection\nErase"
     ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
@@ -1048,13 +1060,13 @@ BEGIN
     ID_EDIT_REDO            "Redo the previously undone action\nRedo"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
     ID_VIEW_AUTOARRANGE     "Arrange icons on a grid."
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCSIZE          "Change the window size"
     AFX_IDS_SCMOVE          "Change the window position"
@@ -1065,31 +1077,31 @@ BEGIN
     AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCRESTORE       "Restore the window to normal size"
     AFX_IDS_SCTASKLIST      "Activate Task List"
     AFX_IDS_MDICHILD        "Activate this window"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_CANCELKEEP           "\r\n&Abort - RETAIN Collected Data\r\nF9"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_RESETACKNOWLEDGEMENTS "Reset Acknowledgements"
     ID_EDIT_CONFIG_O_RAMA_C "Save Copy of Config (current)"
     ID_EDIT_CONFIG_O_RAMA_D "Save Copy of Config (defaults)"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_SMALLICON       "Display items by using small icons.\nSmall Icons"
     ID_VIEW_LARGEICON       "Display items by using large icons.\nLarge Icons"
@@ -1099,72 +1111,72 @@ BEGIN
     ID_VIEW_BYNAME          "Sorts the icons alphabetically."
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDR_DMAINFRAME          "FDMS **demo**"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_INIFILE         "View or modify FDMS settings"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_BACKGROUNDCYCLES "Background Cycles"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_BACKGROUNDCYCLETIME "Background Cycle Time"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_BACKGROUNDCYCLETIME_U " s"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_STANDARDMEASUREMENTCYCLES "Standard Measurement Cycles"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_STANDARDMEASUREMENTCYCLETIME "Standard Measurement Cycle Time"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_STANDARDMEASUREMENTCYCLETIME_U " s"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_DELTAENRICHMENT "Delta Enrichment"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_DELTAENRICHMENT_U " %"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_DELTACOOLINGTIME "Delta Cooling Time"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_DELTACOOLINGTIME_U " y"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_DETECTOR_ID     "Detector ID"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     SETTING_eBGCYCLETIME    "Background Cycle Time"
     SETTING_eBGCYCLES       "Background Cycles"
@@ -1183,7 +1195,7 @@ BEGIN
     SETTING_ePARITY         "Parity"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     SETTING_eCYCLETIME      "Standard Measurement Cycle Time"
     SETTING_eMINSAMPLES     "Minimum Number of Samples"
@@ -1203,7 +1215,7 @@ BEGIN
     SETTING_eDELTA_COOLINGTIME "Delta Cooling Time"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     SETTING_ePASSIVE_SYM    "Passive Sym"
     SETTING_eACTIVITYLOG    "Activity Log"
@@ -1223,7 +1235,7 @@ BEGIN
     SETTING_eMATCHMINUTES   "Number of minutes for event matching "
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     SETTING_eMATCHSECONDS   "Number of seconds for event matching"
     SETTING_eBACKGROUND_A   "Background A"
@@ -1241,7 +1253,7 @@ BEGIN
     SETTING_eCYCLES_CHOICE  "Standard Measurement Cycles"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     SETTING_eCYCLETIME_CHOICE "Standard Measurement Cycle Time"
     SETTING_eDELTA_ENRICHMENT_CHOICE "Delta Enrichment"
@@ -1262,30 +1274,30 @@ BEGIN
     SETTING_eININAMECOUNT   "INI Setting End"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_TOOLCOMBOBOXID       "Integrated Tools\nIntegrated Tools"
     ID_TOOLCOMBOBOXGO       "Start Tool\nStart Tool"
     ID_TOOLBAR_IMPORT       "Import Measurements\nImport Measurements"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDR_TOOLBAR1            "Integrated Tools"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_ANALYZE_IMP          "Analyze Selected Entr"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_PROCESSINGLOG   "Show the Log"
     ID_TOOLS_IMPORT         "Import Measurements ..."
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
