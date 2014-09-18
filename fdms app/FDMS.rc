@@ -253,7 +253,7 @@ FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     CTEXT           "n,v,d",IDC_VERSION_LABEL,53,8,171,12,SS_NOPREFIX
     DEFPUSHBUTTON   "OK",IDOK,91,121,50,14,WS_GROUP
-    LTEXT           "See the license text file accompanying this software for important notices.\r\n\r\nOriginally authored by\r\nJohn Lestone PhD\r\nD. Pelowitz, J. Longo\r\nLos Alamos National Laboratory.",IDC_STATIC,79,26,143,64
+    LTEXT           "See the license text file accompanying this software for important notices.\r\n\r\nOriginally authored by\r\nJohn Lestone PhD\r\nD. Pelowitz, J. Longo\r\nLos Alamos National Laboratory.",IDC_STATIC,104,28,120,76
     CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,7,26,66,80
 END
 
@@ -742,7 +742,7 @@ BEGIN
     DEFPUSHBUTTON   "OK",IDOK,320,7,50,14
     PUSHBUTTON      "More...",IDC_BUTTON1,379,7,50,14
     CTEXT           "n,v,d",IDC_VERSION_LABEL,61,8,213,12,SS_NOPREFIX
-    CONTROL         "",IDC_LEGALESE,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,24,424,229,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_LEGALESE,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,24,424,229,WS_EX_CLIENTEDGE
 END
 
 

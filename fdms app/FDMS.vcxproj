@@ -158,8 +158,7 @@
     <PostBuildEvent>
       <Message>
       </Message>
-      <Command>
-      </Command>
+      <Command>copy "$(TargetPath)" "$(SolutionDir)..\deploy"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
